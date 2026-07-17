@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <style>
+        form{
+            background-color: antiquewhite ;
+        }
+        div{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+ <h1 align="center">JOB APPLICATION FORM</h1>
+ <hr>
+        <h3>PERSONAL INFORMATION :-</h3>
+        <label>Enter Name :<input type="text" placeholder="ENTER NAME" required id="name"></label>
+        <br><br>
+        <label>Enter Email :<input type="email" placeholder="ENTER EMAIL" required id="email"></label>
+        <br><br>
+        <label>Enter DOB : <input type="date" placeholder="ENTER DOB" required id="dob"></label>
+        <br><br>
+        <label>Enter Gender :Male<input type="radio" name="gender"> Female <input type="radio" name="gender"> Others <input type="radio" name="gender"></label>
+        <br><br>
+        <label>Phone NO :  <input type="number" placeholder="ENTER PHONE NUMBER" required id="phone"></label>
+        <br><br>
+        <label>Enter Password :<input type="password" placeholder="ENTER PASSWORD" required id="pass"></label>
+        <br><br>
+        <hr>
+        <br>
+        <label>Portfolio Website :<input type="url" placeholder="ENTER WEBSITE LINK" required id="port"></label>
+        <br><br>
+        <label>Upload Resume :<input type="file" required id="resume"></label>
+        <br><br>
+        <hr>
+        <h3>TECHNICAL SKILLS :-</h3>
+        <label>HTML/CSS <input type="checkbox"></label><br>
+        <label>JAVA <input type="checkbox"></label><br>
+        <label>C++ <input type="checkbox"></label><br>
+        <label>UI/UX <input type="checkbox"></label><br>
+        <hr>
+         <h3>POSITION :-</h3>
+        <select name="Add skills" id="skill">
+             <option value=""></option>
+                <option value="be">Backend Developer</option>
+                 <option value="fe">Frontend Developer</option>
+                  <option value="in">Intern</option>
+        </select>
+        <br>
+        <h3>PREFERRED LOCATION :-</h3>
+        <select name="loca" id="location">
+             <option value=""></option>
+                <option value="">GOA</option>
+                 <option value="">MUMBAI</option>
+                  <option value="">BENGLURU</option>
+                    <option value="">GUJURAT</option>
+                      <option value="">PUNES</option>
+        </select>
+    <br>
+        <hr>
+        <h3>ABOUT YOURSELF</h3>
+        <input type="text" placeholder="ENTER DETAIL" style="width: 500px; height: 100px;">
+        <br><br>
+        <div>
+        <button style="background-color: rgb(180, 180, 197); height: 50px; " >Reset</button>
+        <button style="background-color: rgb(180, 180, 197); height: 50px;">Submit</button>
+        </div>
+        <br>
+        <footer align="center" style="background-color: rgb(192, 192, 208);">
+            <p>&copy; ALL RIGHT FOR THIS FORM IS CLAIMED</p>
+        </footer>
+    </form>
+   
+    
+</body>
+</html>
